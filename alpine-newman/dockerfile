@@ -1,0 +1,5 @@
+FROM alpine-nodejs
+
+RUN npm install -g newman
+
+CMD ["/usr/bin/newman"]
